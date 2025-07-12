@@ -1,0 +1,100 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* start text color  */
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+   color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+/* end text color  */
+/* header styles  */
+
+.left-side-bg{
+    background-image:url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left ;
+
+}
+/* nav styles start */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+    
+
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800px;
+    color: #181818;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* nav style end  */
+.text-color-primary{
+    color: #FD6E0A;
+}
+/* button style  */
+.bth-primary{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 18px 30px 19px 36px;
+    border-radius: 8px;
+    background-color: #FD6E0A;
+    border: none;
+}
+.bth-contact{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    padding: 18px 30px 19px 36px;
+    border-width: thin;
+    border-color: #FD6E0A;
+    border-radius: 8px;
+    margin-left: 18px;
+}
+/* banner style  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600px;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 18px;
+}
