@@ -144,6 +144,7 @@ main section{
 .section-title{
     font-size: 35px;
     font-weight: bold;
+    margin-bottom: 50px;
 }
 .section-description{
     font-size: 18px;
@@ -166,3 +167,32 @@ main section{
     box-shadow: rgba(0, 0, 0, 0.06);
 }
 /* what i do section end  */
+/* resume style section start */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+}
+.experience-description{
+    font-size: 16px;
+}
+.resume-dowmload-cv{
+    margin: 37px;
+    align-content: center;
+}
+
+/* resume style section end  */
